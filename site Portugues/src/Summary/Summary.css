@@ -13,19 +13,33 @@
   flex-direction: column;
   align-items: center;
 }
+.boxTextSummary h1{
+  font-size: var(--textoTitulo);
+}
 .boxTextSummary p{
   text-align: center;
 }
-
+.exampleImg2{
+  width: 13rem;
+}
 @media screen and (min-width:767px){
 .containerSummary{
- flex-direction: row;
+  flex-direction: row;
+  width: 65%;
+  justify-content: center;
+  gap: 2rem;
+}
+.exampleImg2{
+  width: 15rem;
 }
 .boxTextSummary{
   padding-left: 1rem;
   align-items: baseline;
+  justify-content: center;
+  width: 50%;
 }
 .boxTextSummary > p{
   text-align: left;
+  font-size: var(--textoPadrao);
 }
 }

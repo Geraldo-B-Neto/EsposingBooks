@@ -7,7 +7,7 @@ function Summary() {
   return (
     <div class="containerSummary">
       <a href="#">
-        <img src="#" alt="livroIlustrativo"></img>
+        <img class="exampleImg2" src="./assets/img/SummaryBook.svg" alt="livroIlustrativo"></img>
       </a>
       <div class="boxTextSummary">
         <h1>Resumo</h1>
