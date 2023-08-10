@@ -1,0 +1,42 @@
+
+.containerPresentation{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px red solid;
+  width: 80%;
+  margin: 3rem auto;
+}
+.containerPresentation >a{
+  margin-block: 3rem;
+  text-align: center;
+}
+.boxTextPresentation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxTextPresentation p{
+  text-align: center;
+}
+.boxTextPresentation a{
+  margin-top: 1.2rem;
+}
+.boxTextPresentation a > button{
+  display: flex;
+  gap: .5rem;
+  padding: 6px;
+}
+
+@media screen and (min-width:767px){
+.containerPresentation{
+ flex-direction: row;
+}
+.boxTextPresentation{
+  padding-left: 1rem;
+  align-items: baseline;
+}
+.boxTextPresentation > p{
+  text-align: left;
+}
+}
