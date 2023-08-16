@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 1px red solid;
   width: 80%;
   margin: 3rem auto;
 }
@@ -18,23 +17,39 @@
 }
 .boxTextPresentation p{
   text-align: center;
+  font-size: var(--textoPadrao);
 }
 .boxTextPresentation a{
   margin-top: 1.2rem;
+}
+.boxTextPresentation h1{
+  font-size: var(--textoTitulo);
+  white-space: nowrap;
 }
 .boxTextPresentation a > button{
   display: flex;
   gap: .5rem;
   padding: 6px;
+  align-items: center;
 }
-
+.exampleImg{
+  width: 10rem;
+}
 @media screen and (min-width:767px){
 .containerPresentation{
  flex-direction: row;
+ width: 65%;
+ justify-content: center;
+ gap: 2rem;
+}
+.exampleImg{
+  width: 15rem;
 }
 .boxTextPresentation{
   padding-left: 1rem;
   align-items: baseline;
+  justify-content: center;
+  width: 50%;
 }
 .boxTextPresentation > p{
   text-align: left;

@@ -13,12 +13,12 @@ function Presentation() {
       </p>
       <a href="#" target="_blank"> 
         <button type="button">
-          <img src="#" alt="ShopIcon"></img><aside> Compre na Amazon</aside>
+          <img src="./assets/img/ShoppingCart.svg" alt="ShopIcon"></img><aside> Compre na Amazon</aside>
         </button>
       </a>
     </div>
     <a href="#" target="_blank">
-      <img src="#" alt="LivroTerraNegra"></img>
+      <img class="exampleImg" src="./assets/img/TerraNegraBook.svg" alt="LivroTerraNegra"></img>
     </a>
   </div>
   );
