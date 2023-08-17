@@ -7,15 +7,15 @@ function Summary() {
   return (
     <div class="containerSummary">
       <a href="#">
-        <img class="exampleImg2" src="./assets/img/SummaryBook.svg" alt="livroIlustrativo"></img>
+        <img class="exampleImg2" src="../assets/img/TerraNegraAberto.svg" alt="livroIlustrativo"></img>
       </a>
       <div class="boxTextSummary">
         <h1>Resumo</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda repudiandae ipsam voluptatibus ab nam expedita perferendis. Unde fugiat totam quae consequatur facilis, eius inventore, commodi suscipit quod magni, molestias voluptatibus!
+          Terra Negra traz uma poesia de enfrentamento; uma poesia que questiona lugares e que nos propicia um olhar mais crítico para distintos horizontes. Trata-se de uma obra essencial para nossos tempos e para escurecer o pensamento. Assim, uma Terra cada vez mais Negra se mostra fundamental.
         </p>
       </div>
-  </div>
+    </div>
   );
 }
 

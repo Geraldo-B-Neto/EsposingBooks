@@ -17,6 +17,7 @@
 }
 .boxTextPresentation p{
   text-align: center;
+  padding:1rem;
   font-size: var(--textoPadrao);
 }
 .boxTextPresentation a{
@@ -33,7 +34,7 @@
   align-items: center;
 }
 .exampleImg{
-  width: 10rem;
+  width: 13rem;
 }
 @media screen and (min-width:767px){
 .containerPresentation{
@@ -44,6 +45,7 @@
 }
 .exampleImg{
   width: 15rem;
+  margin-top: 3rem;
 }
 .boxTextPresentation{
   padding-left: 1rem;
@@ -53,5 +55,6 @@
 }
 .boxTextPresentation > p{
   text-align: left;
+  padding: 0;
 }
 }
