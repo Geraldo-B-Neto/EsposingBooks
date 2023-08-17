@@ -9,11 +9,12 @@ function Presentation() {
     <div class="containerPresentation">
     <div class="boxTextPresentation">
       <h1>Terra Negra</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ducimus quidem earum inventore explicabo! Nihil molestiae fugit quod fugiat, perspiciatis est consequatur et tempore possimus hic libero voluptate dolorum labore!
+      <p>
+      Cristiane Sobral nos desnuda com uma poesia cheia de personalidade, cores, aromas, enredos, densos enredos e escreve como tribo. Conhecedora. Caminha sem solidão porque traz as hordas dos povos em diáspora inebriados e entrelaçados em sua narrativa ética, estética e caudalosa.
       </p>
       <a href="#" target="_blank"> 
         <button type="button">
-          <img src="./assets/img/ShoppingCart.svg" alt="ShopIcon"></img><aside> Compre na Amazon</aside>
+          <img src="./assets/img/shoppingCart.svg" alt="ShopIcon"></img><aside> Compre na Amazon</aside>
         </button>
       </a>
     </div>

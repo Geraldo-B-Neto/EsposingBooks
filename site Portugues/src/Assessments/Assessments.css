@@ -1,7 +1,7 @@
 
 .containerAssessments{
   width: 80%;
-  border-radius: 5px;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +10,8 @@
   box-shadow: black 0px 2px 4px 0px, black 0px 2px 16px 0px;
 }
 .containerAssessments p{
-  padding: .5rem;
+  padding: 1rem;
+  font-size: var(--textoPadrao);
 }
 .boxAssessmentsBtns{
   width: 15rem;
@@ -28,4 +29,9 @@
 .activeBtn{
   background: #aa6f04;
   height: 1.4rem;
+}
+@media screen and (min-width:767px){
+  .containerAssessments{
+    width: 65%;
+  }
 }

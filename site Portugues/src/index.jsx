@@ -6,6 +6,7 @@ import Header from './Header/Header.jsx';
 import Presentation from './Presentation/Presentation.jsx';
 import Assessments from './Assessments/Assessments.jsx';
 import Summary from './Summary/Summary.jsx';
+import Author from './Author/Author.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Presentation />
     <Assessments />
     <Summary />
+    <Author />
   </React.StrictMode>,
   document.getElementById('app')
 );

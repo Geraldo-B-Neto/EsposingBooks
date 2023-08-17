@@ -5,12 +5,18 @@ function Header() {
   return (
     <header>
     <nav>
-      <div class="opcoesMenu">
-        <a href="#">Home</a>
-        <a href="#">Terra Negra</a>
-        <a href="#">Bom Dia Camarada</a>
+      <a href="index.html"><img src="./img/Book (1).svg" alt="logo" /></a>
+
+      <div class="barsMenu" onclick="menuToggle()">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
-      <a href="#"><img src="#" alt="logo"></img></a>
+
+      <div class="menu">
+        <a href="terraNegra.html">Terra Negra</a>
+        <a href="bomDiaCamradas.html">Bom dia, camaradas</a>
+      </div>
     </nav>
   </header>
   );

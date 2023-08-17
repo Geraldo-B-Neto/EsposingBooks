@@ -4,7 +4,6 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: 1px red solid;
   width: 80%;
   margin: 3rem auto;
 }
@@ -17,6 +16,7 @@
   font-size: var(--textoTitulo);
 }
 .boxTextSummary p{
+  padding: 1rem;
   text-align: center;
 }
 .exampleImg2{
@@ -27,19 +27,22 @@
   flex-direction: row;
   width: 65%;
   justify-content: center;
-  gap: 2rem;
+  gap: .5rem;
 }
 .exampleImg2{
+  margin-top: 4.5rem;
   width: 15rem;
 }
 .boxTextSummary{
-  padding-left: 1rem;
-  align-items: baseline;
+  padding-right: 2rem;
+  align-items: flex-end;
   justify-content: center;
   width: 50%;
 }
+
 .boxTextSummary > p{
-  text-align: left;
+  text-align: right;
+  padding: 0;
   font-size: var(--textoPadrao);
 }
 }
